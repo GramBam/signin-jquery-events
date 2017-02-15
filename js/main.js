@@ -3,8 +3,6 @@ $(document).ready(function() {
   $(".signin").click(function(){
     $('.modal').fadeIn("slow");
 
-
-
 });
 
 $(".close").click(function(){
@@ -13,8 +11,7 @@ $(".close").click(function(){
 });
 
 $(".submit").click(function(){
-
-$('input').addClass('error');
+  $('input').addClass('error');
 
 });
 
